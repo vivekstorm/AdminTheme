@@ -68,7 +68,7 @@ body{
 .main-color-bg{
   background-color: #f2014c !important;
   border-color: #f64080 !important;
-  color:#ffffff;
+  color:#ffffff !important;
 }
 /*Header*/
 #header{
@@ -91,6 +91,13 @@ body{
   color: #333333;
 }
 
+.progress-bar{
+  background: #333333;
+  color: #ffffff;
+}
+ .dash-box{
+   text-align: center;
+ }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ecf0f1;
