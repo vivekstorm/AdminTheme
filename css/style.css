@@ -64,8 +64,22 @@ body{
 .navbar-default .navbar-link:hover {
   color: #ffffff;
 }
-
-
+/*Custom*/
+.main-color-bg{
+  background-color: #f2014c !important;
+  border-color: #f64080 !important;
+  color:#ffffff;
+}
+/*Header*/
+#header{
+  background: #333333;
+  color: #ffffff;
+  padding-bottom: 10px;
+  margin-bottom:15px;
+}
+#header .create{
+  padding-top: 20px;
+}
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
