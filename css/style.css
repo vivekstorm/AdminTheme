@@ -81,6 +81,16 @@ body{
   padding-top: 20px;
 }
 
+/*Breadcrumb*/
+.breadcrumb{
+  background: #cccccc;
+  color: #333333;
+
+}
+.breadcrumb a{
+  color: #333333;
+}
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ecf0f1;
